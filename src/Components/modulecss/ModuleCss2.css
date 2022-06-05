@@ -1,0 +1,10 @@
+.mod{
+
+    background: orange;
+    color: green;
+    padding: 10px;
+    border: 2px dashed red;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}

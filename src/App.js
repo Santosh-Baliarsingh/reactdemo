@@ -25,10 +25,11 @@ import React from 'react';
 // import Assignment1 from './Components/assignment/Assignment1';
 // import Assignment2 from './Components/assignment/Assignment2';
 // import Assignment3 from './Components/assignment/Assignment3';
+// import Assignment4 from './Components/assignment/Assignment4';
 
 
 import './App.css';
-import Assignment4 from './Components/assignment/Assignment4';
+import Practice from './Components/practice/Practice';
 
 
 function App() {
@@ -60,8 +61,9 @@ function App() {
      <Assignment1></Assignment1>
      <Assignment2></Assignment2>
      <Assignment3></Assignment3> */}
-     <Assignment4></Assignment4>
+     {/* <Assignment4></Assignment4> */}
      {/* <Footer></Footer> */}
+     <Practice/>
    </div>
   );
 }

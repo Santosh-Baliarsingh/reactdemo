@@ -5,9 +5,9 @@ import React from "react";
 // import Carousel from './Components/carousel/Carousel';
 // import ArrayDemo1 from './Components/Listitems/ArrayDemo1';
 // import ArrayDemo2 from './Components/Listitems/ArrayDemo2';
-import ArrayDemo3 from './Components/Listitems/ArrayDemo3';
+// import ArrayDemo3 from './Components/Listitems/ArrayDemo3';
 // import Fakestore from './Components/Listitems/Fakestore';
-// import ForceUpdateDemo1 from './Components/forceupdate/ForceUpdateDemo1';
+import ForceUpdateDemo1 from './Components/forceupdate/ForceUpdateDemo1';
 // import PropsParent from './Components/props/PropsParent';
 // import Products from './Components/fakestoreapi/Products';
 // import ModuleCss from './Components/modulecss/ModuleCss';
@@ -39,9 +39,9 @@ function App() {
       {/* <Main/> */}
       {/* <ArrayDemo1></ArrayDemo1> */}
       {/* <ArrayDemo2></ArrayDemo2> */}
-      <ArrayDemo3></ArrayDemo3>
+      {/* <ArrayDemo3></ArrayDemo3> */}
       {/* <Fakestore></Fakestore> */}
-      {/* <ForceUpdateDemo1></ForceUpdateDemo1> */}
+      <ForceUpdateDemo1></ForceUpdateDemo1>
       {/* <PropsParent></PropsParent> */}
       {/* <Products></Products> */}
       {/* <ModuleCss></ModuleCss> */}

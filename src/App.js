@@ -1,14 +1,14 @@
 import React from "react";
 // import Header from './Components/header/Header';
 // import Main from './Components/main/Main';
-// import Navbar from './Components/navbar/Navbar';
+import Navbar from './Components/navbar/Navbar';
 // import Carousel from './Components/carousel/Carousel';
 // import ArrayDemo1 from './Components/Listitems/ArrayDemo1';
 // import ArrayDemo2 from './Components/Listitems/ArrayDemo2';
 // import ArrayDemo3 from './Components/Listitems/ArrayDemo3';
 // import Fakestore from './Components/Listitems/Fakestore';
 // import ForceUpdateDemo1 from './Components/forceupdate/ForceUpdateDemo1';
-import PropsParent from './Components/props/PropsParent';
+// import PropsParent from './Components/props/PropsParent';
 // import Products from './Components/fakestoreapi/Products';
 // import ModuleCss from './Components/modulecss/ModuleCss';
 // import ReactExpression from './Components/react_expressions/ReactExpression';
@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       {/* <Header/> */}
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <Carousel/> */}
       {/* <Main/> */}
       {/* <ArrayDemo1></ArrayDemo1> */}
@@ -42,7 +42,7 @@ function App() {
       {/* <ArrayDemo3></ArrayDemo3> */}
       {/* <Fakestore></Fakestore> */}
       {/* <ForceUpdateDemo1></ForceUpdateDemo1> */}
-      <PropsParent></PropsParent>
+      {/* <PropsParent></PropsParent> */}
       {/* <Products></Products> */}
       {/* <ModuleCss></ModuleCss> */}
       {/* <ConditionalRendering1></ConditionalRendering1> */}

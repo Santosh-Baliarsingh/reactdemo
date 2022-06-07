@@ -12,8 +12,8 @@ export default function Greet({name,msg = 'Default Message',children,flag}) {
     <>
       <div>
           Hello {name} , {msg} <br/>
-          {children} <br/>
-          {(flag ? <h1>Hello</h1> : null)}
+          {children} <br/>   {/* Props.children */}
+          {(flag ? <h1>Helloooooo</h1> : null)}
       </div>
 
       {/* <ul>

@@ -1,7 +1,7 @@
 import React from "react";
 // import Header from './Components/header/Header';
 // import Main from './Components/main/Main';
-import Navbar from './Components/navbar/Navbar';
+// import Navbar from './Components/navb?ar/Navbar';
 // import Carousel from './Components/carousel/Carousel';
 // import ArrayDemo1 from './Components/Listitems/ArrayDemo1';
 // import ArrayDemo2 from './Components/Listitems/ArrayDemo2';
@@ -12,13 +12,13 @@ import Navbar from './Components/navbar/Navbar';
 // import Products from './Components/fakestoreapi/Products';
 // import ModuleCss from './Components/modulecss/ModuleCss';
 // import ReactExpression from './Components/react_expressions/ReactExpression';
-// import StateDemo2 from './Components/stateDemo/StateDemo2';
 // // import ConditionalRendering1 from './Components/conditional_rendering/ConditionalRendering1';
 // // import ConditionalRendering2 from './Components/conditional_rendering/ConditionalRendering2';
 // // import ConditionalRendering3 from './Components/conditional_rendering/ConditionalRendering3';
 // // import ConditionalRendering4 from './Components/conditional_rendering/ConditionalRendering4';
-// import StateDemo1 from './Components/stateDemo/StateDemo1';
 // import Footer from './Components/footer/Footer';
+// import StateDemo1 from './Components/stateDemo/StateDemo1';
+import StateDemo2 from './Components/stateDemo/StateDemo2';
 // import StateDemo3 from './Components/stateDemo/StateDemo3';
 // import StateDemo4 from './Components/stateDemo/StateDemo4';
 // import StateDemo5 from './Components/stateDemo/StateDemo5';
@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       {/* <Header/> */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Carousel/> */}
       {/* <Main/> */}
       {/* <ArrayDemo1></ArrayDemo1> */}
@@ -51,7 +51,7 @@ function App() {
       {/* <ConditionalRendering4></ConditionalRendering4> */}
       {/* <ReactExpression></ReactExpression> */}
       {/* <StateDemo1></StateDemo1> */}
-      {/* <StateDemo2></StateDemo2> */}
+      <StateDemo2></StateDemo2>
       {/* <StateDemo3></StateDemo3> */}
       {/* <StateDemo4></StateDemo4> */}
       {/* <StateDemo5></StateDemo5> */}

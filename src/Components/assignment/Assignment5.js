@@ -1,25 +1,30 @@
-import React, { useState } from "react";
+import React, { Component } from 'react'
 
-export default function Assignment3() {
-  let [toggle, setToggle] = useState(true); // default Value is true
+export default class Assignment5 extends Component {
 
-  let toggleBtn = () => {
-    setToggle(!toggle);
-  };
+    state = {
 
-  return (
-    <>
-      <div className="text-center h3 bg-dark text-light p-3">
-        Toggle Button to Show and Hide a Div Using State in Functional Component
+        toggle : true,
+    }
+
+    toggleBtn = () =>{
+
+        this.setState({ toggle : !this.state.toggle})
+    }
+  render() {
+    return (
+      <>
+           <div className="text-center h3 bg-dark text-light p-3">
+        Toggle Button to Show and Hide a Div Using State in Class Component
       </div>
       <div className=" text-center">
         <button
-          onClick={toggleBtn}
+          onClick={this.toggleBtn}
           className="btn btn-primary   px-4 py-2 mt-4 fw-bold">
-          {toggle ? "Hide" : "Show"}
+          {this.state.toggle ? "Hide" : "Show"}
         </button>
       </div>
-      {toggle && (
+      { this.state.toggle ? (
         <p className="w-50  border fw-bold border-primary border-3 mx-auto mt-4 p-2">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -31,7 +36,8 @@ export default function Assignment3() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum
         </p>
-      )}
-    </>
-  );
+      ) : null}
+      </>
+    )
+  }
 }

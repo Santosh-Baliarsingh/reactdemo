@@ -18,13 +18,13 @@ import React from "react";
 // // import ConditionalRendering4 from './Components/conditional_rendering/ConditionalRendering4';
 // import Footer from './Components/footer/Footer';
 // import StateDemo1 from './Components/stateDemo/StateDemo1';
-import StateDemo2 from './Components/stateDemo/StateDemo2';
+// import StateDemo2 from './Components/stateDemo/StateDemo2';
 // import StateDemo3 from './Components/stateDemo/StateDemo3';
 // import StateDemo4 from './Components/stateDemo/StateDemo4';
 // import StateDemo5 from './Components/stateDemo/StateDemo5';
 // import Assignment1 from './Components/assignment/Assignment1';
 // import Assignment2 from './Components/assignment/Assignment2';
-// import Assignment3 from './Components/assignment/Assignment3';
+import Assignment3 from './Components/assignment/Assignment3';
 // import Assignment4 from './Components/assignment/Assignment4';
 // import Practice from "./Components/practice/Practice";
 
@@ -51,13 +51,13 @@ function App() {
       {/* <ConditionalRendering4></ConditionalRendering4> */}
       {/* <ReactExpression></ReactExpression> */}
       {/* <StateDemo1></StateDemo1> */}
-      <StateDemo2></StateDemo2>
+      {/* <StateDemo2></StateDemo2> */}
       {/* <StateDemo3></StateDemo3> */}
       {/* <StateDemo4></StateDemo4> */}
       {/* <StateDemo5></StateDemo5> */}
       {/* <Assignment1></Assignment1> */}
       {/* <Assignment2></Assignment2> */}
-      {/* <Assignment3></Assignment3> */}
+      <Assignment3></Assignment3>
       {/* <Assignment4></Assignment4> */}
       {/* <Footer></Footer> */}
       {/* <Practice /> */}

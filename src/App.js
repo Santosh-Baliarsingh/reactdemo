@@ -24,9 +24,9 @@ import React from "react";
 // import StateDemo5 from './Components/stateDemo/StateDemo5';
 // import Assignment1 from './Components/assignment/Assignment1';
 // import Assignment2 from './Components/assignment/Assignment2';
-import Assignment3 from './Components/assignment/Assignment3';
-// import Assignment4 from './Components/assignment/Assignment4';
-import Assignment5 from "./Components/assignment/Assignment5";
+// import Assignment3 from './Components/assignment/Assignment3';
+import Assignment4 from './Components/assignment/Assignment4';
+// import Assignment5 from "./Components/assignment/Assignment5";
 // import Practice from "./Components/practice/Practice";
 
 import "./App.css";
@@ -58,9 +58,9 @@ function App() {
       {/* <StateDemo5></StateDemo5> */}
       {/* <Assignment1></Assignment1> */}
       {/* <Assignment2></Assignment2> */}
-      <Assignment3></Assignment3>
-      {/* <Assignment4></Assignment4> */}
-      <Assignment5/>
+      {/* <Assignment3></Assignment3> */}
+      <Assignment4></Assignment4>
+      {/* <Assignment5/> */}
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

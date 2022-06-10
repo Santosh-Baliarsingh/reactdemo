@@ -12,18 +12,18 @@ export default class EventDemo5 extends Component {
   };
 
   changeHandler = (e) => {
-
-   /*  const {name , value} = e.target;
+    /*  const {name , value} = e.target;
 
     this.setState({ [name]: +value }); */ //This is Valid
 
-    this.setState({[e.target.name] : +e.target.value});
+    this.setState({ [e.target.name]: +e.target.value });
   };
   render() {
     return (
       <>
         <div className="h3 bg-dark p-2 text-light text-center">
-          React onChange Event (Single Event Handler for multiple input elements) in Class Component
+          React onChange Event (Single Event Handler for multiple input
+          elements) in Class Component
         </div>
         <div className="ms-3">
           <input

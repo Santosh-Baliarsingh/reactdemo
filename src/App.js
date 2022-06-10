@@ -25,11 +25,20 @@ import React from "react";
 // import Assignment1 from './Components/assignment/Assignment1';
 // import Assignment2 from './Components/assignment/Assignment2';
 // import Assignment3 from './Components/assignment/Assignment3';
-import Assignment4 from './Components/assignment/Assignment4';
+// import Assignment4 from './Components/assignment/Assignment4';
 // import Assignment5 from "./Components/assignment/Assignment5";
 // import Practice from "./Components/practice/Practice";
+// import Calculator1 from "./Components/calulator/Calculator1";
+// import Calculator2 from "./Components/calulator/Calculator2";
+// import EventsDemo1 from "./Components/react_events/EventsDemo1";
+// import EventDemo2 from "./Components/react_events/EventDemo2";
+// import EventDemo3 from "./Components/react_events/EventDemo3";
+// import EventDemo4 from "./Components/react_events/EventDemo4";
+// import EventDemo5 from "./Components/react_events/EventDemo5";
+// import EventDemo6 from "./Components/react_events/EventDemo6";
 
 import "./App.css";
+import EventDemo7 from "./Components/react_events/EventDemo7";
 
 function App() {
   return (
@@ -59,8 +68,17 @@ function App() {
       {/* <Assignment1></Assignment1> */}
       {/* <Assignment2></Assignment2> */}
       {/* <Assignment3></Assignment3> */}
-      <Assignment4></Assignment4>
+      {/* <Assignment4></Assignment4> */}
       {/* <Assignment5/> */}
+      {/* <Calculator1/> */}
+      {/* <Calculator2/> */}
+      {/* <EventsDemo1/> */}
+      {/* <EventDemo2/> */}
+      {/* <EventDemo3/> */}
+      {/* <EventDemo4/> */}
+      {/* <EventDemo5/> */}
+      {/* <EventDemo6/> */}
+      <EventDemo7/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

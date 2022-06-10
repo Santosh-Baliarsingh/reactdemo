@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class EventDemo3 extends Component {
   state = {
-    name: "Santosh",
+    name: "Santosh Kumar Baliarsingh",
   };
 
   displayMsg = () => {

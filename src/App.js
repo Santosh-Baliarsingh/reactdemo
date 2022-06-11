@@ -37,9 +37,12 @@ import React from "react";
 // import EventDemo5 from "./Components/react_events/EventDemo5";
 // import EventDemo6 from "./Components/react_events/EventDemo6";
 // import EventDemo7 from "./Components/react_events/EventDemo7";
+// import Parent from "./Components/component_communication/Parent";
+// import Demo1 from "./Components/pure_component/Demo1";
+// import Demo2 from "./Components/pure_component/Demo2";
 
 import "./App.css";
-import Parent from "./Components/component_communication/Parent";
+import Demo3 from "./Components/pure_component/Demo3";
 
 function App() {
   return (
@@ -80,7 +83,10 @@ function App() {
       {/* <EventDemo5/> */}
       {/* <EventDemo6/> */}
       {/* <EventDemo7/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Demo1/> */}
+      {/* <Demo2/> */}
+      <Demo3/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

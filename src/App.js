@@ -78,7 +78,8 @@ function App() {
       {/* <EventDemo4/> */}
       {/* <EventDemo5/> */}
       {/* <EventDemo6/> */}
-      <EventDemo7/>
+      {/* <EventDemo7/> */}
+      <Parent/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

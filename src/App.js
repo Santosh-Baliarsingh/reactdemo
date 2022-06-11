@@ -40,9 +40,10 @@ import React from "react";
 // import Parent from "./Components/component_communication/Parent";
 // import Demo1 from "./Components/pure_component/Demo1";
 // import Demo2 from "./Components/pure_component/Demo2";
+// import Demo3 from "./Components/pure_component/Demo3";
+import MemoDemo1 from "./Components/memo_component/MemoDemo1";
 
 import "./App.css";
-import Demo3 from "./Components/pure_component/Demo3";
 
 function App() {
   return (
@@ -86,7 +87,8 @@ function App() {
       {/* <Parent/> */}
       {/* <Demo1/> */}
       {/* <Demo2/> */}
-      <Demo3/>
+      {/* <Demo3/> */}
+      <MemoDemo1/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

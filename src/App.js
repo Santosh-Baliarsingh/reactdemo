@@ -36,9 +36,10 @@ import React from "react";
 // import EventDemo4 from "./Components/react_events/EventDemo4";
 // import EventDemo5 from "./Components/react_events/EventDemo5";
 // import EventDemo6 from "./Components/react_events/EventDemo6";
+// import EventDemo7 from "./Components/react_events/EventDemo7";
 
 import "./App.css";
-import EventDemo7 from "./Components/react_events/EventDemo7";
+import Parent from "./Components/component_communication/Parent";
 
 function App() {
   return (

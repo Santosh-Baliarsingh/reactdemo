@@ -42,6 +42,7 @@ import React from "react";
 // import Demo2 from "./Components/pure_component/Demo2";
 // import Demo3 from "./Components/pure_component/Demo3";
 import MemoDemo1 from "./Components/memo_component/MemoDemo1";
+import UseMemo from "./Components/memo_component/UseMemo";
 
 import "./App.css";
 
@@ -89,6 +90,7 @@ function App() {
       {/* <Demo2/> */}
       {/* <Demo3/> */}
       <MemoDemo1/>
+      <UseMemo/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

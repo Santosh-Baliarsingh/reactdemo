@@ -43,10 +43,16 @@ import React from "react";
 // import Demo3 from "./Components/pure_component/Demo3";
 // import MemoDemo1 from "./Components/memo_component/MemoDemo1";
 // import UseMemo from "./Components/memo_component/UseMemo";
-import UseCallBack from "./Components/memo_component/UseCallBack";
+// import UseCallBack from "./Components/memo_component/UseCallBack";
+// import ConstructorDemo from "./Components/mounting/ConstructorDemo";
+// import MountingDemo1 from "./Components/mounting/MountingDemo1";
+// import GetDerivedStateFromProps from "./Components/mounting/GetDerivedStateFromProps";
+// import ComponentDidMount from "./Components/mounting/ComponentDidMount";
 
 
 import "./App.css";
+import ComponentDidMountAPI from "./Components/mounting/ComponentDidMountAPI";
+
 
 function App() {
   return (
@@ -93,7 +99,12 @@ function App() {
       {/* <Demo3/> */}
       {/* <MemoDemo1/> */}
       {/* <UseMemo/> */}
-      <UseCallBack/>
+      {/* <UseCallBack/> */}
+      {/* <MountingDemo1/> */}
+      {/* <ConstructorDemo/> */}
+      {/* <GetDerivedStateFromProps color='blue'></GetDerivedStateFromProps> */}
+      {/* <ComponentDidMount color='blue'/> */}
+      <ComponentDidMountAPI/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

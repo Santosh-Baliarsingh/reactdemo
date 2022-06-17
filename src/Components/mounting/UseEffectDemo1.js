@@ -16,7 +16,7 @@ export default function UseEffectDemo1() {
 
   return (
     <>
-      <div className="bg-dark text-light p-3 text-center h3">Eample UseEffect In Functional Component</div>
+      <div className="bg-dark text-light p-3 text-center h3">Example UseEffect In Functional Component</div>
       <p className="h4 ms-2">Initial Values a : {a}</p>
       <p className="h4 ms-2">Initial Values b : {b}</p>
       <p className="h4 ms-2">Initial Values c : {c}</p>

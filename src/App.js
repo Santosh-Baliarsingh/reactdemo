@@ -48,10 +48,11 @@ import React from "react";
 // import MountingDemo1 from "./Components/mounting/MountingDemo1";
 // import GetDerivedStateFromProps from "./Components/mounting/GetDerivedStateFromProps";
 // import ComponentDidMount from "./Components/mounting/ComponentDidMount";
+// import ComponentDidMountAPI from "./Components/mounting/ComponentDidMountAPI";
 
 
 import "./App.css";
-import ComponentDidMountAPI from "./Components/mounting/ComponentDidMountAPI";
+import UseEffectDemo1 from "./Components/mounting/UseEffectDemo1";
 
 
 function App() {
@@ -104,7 +105,8 @@ function App() {
       {/* <ConstructorDemo/> */}
       {/* <GetDerivedStateFromProps color='blue'></GetDerivedStateFromProps> */}
       {/* <ComponentDidMount color='blue'/> */}
-      <ComponentDidMountAPI/>
+      {/* <ComponentDidMountAPI/> */}
+      <UseEffectDemo1/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

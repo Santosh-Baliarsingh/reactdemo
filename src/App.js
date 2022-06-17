@@ -51,10 +51,12 @@ import React from "react";
 // import ComponentDidMountAPI from "./Components/mounting/ComponentDidMountAPI";
 // import UseEffectDemo1 from "./Components/mounting/UseEffectDemo1";
 // import UseEffectDemoParent from "./Components/mounting/UseEffectDemoParent";
+// import UseEffectFetchData from "./Components/mounting/UseEffectFetchData";
+// import RefDemo1 from "./Components/forms/RefDemo1";
 
 
 import "./App.css";
-import UseEffectFetchData from "./Components/mounting/UseEffectFetchData";
+import RefDemo2 from "./Components/forms/RefDemo2";
 
 
 
@@ -111,7 +113,9 @@ function App() {
       {/* <ComponentDidMountAPI/> */}
       {/* <UseEffectDemo1/> */}
       {/* <UseEffectDemoParent/> */}
-      <UseEffectFetchData/>
+      {/* <UseEffectFetchData/> */}
+      {/* <RefDemo1/> */}
+      <RefDemo2/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

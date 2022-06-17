@@ -49,10 +49,13 @@ import React from "react";
 // import GetDerivedStateFromProps from "./Components/mounting/GetDerivedStateFromProps";
 // import ComponentDidMount from "./Components/mounting/ComponentDidMount";
 // import ComponentDidMountAPI from "./Components/mounting/ComponentDidMountAPI";
+// import UseEffectDemo1 from "./Components/mounting/UseEffectDemo1";
+// import UseEffectDemoParent from "./Components/mounting/UseEffectDemoParent";
 
 
 import "./App.css";
-import UseEffectDemo1 from "./Components/mounting/UseEffectDemo1";
+import UseEffectFetchData from "./Components/mounting/UseEffectFetchData";
+
 
 
 function App() {
@@ -106,7 +109,9 @@ function App() {
       {/* <GetDerivedStateFromProps color='blue'></GetDerivedStateFromProps> */}
       {/* <ComponentDidMount color='blue'/> */}
       {/* <ComponentDidMountAPI/> */}
-      <UseEffectDemo1/>
+      {/* <UseEffectDemo1/> */}
+      {/* <UseEffectDemoParent/> */}
+      <UseEffectFetchData/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

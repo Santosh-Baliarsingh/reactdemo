@@ -53,10 +53,12 @@ import React from "react";
 // import UseEffectDemoParent from "./Components/mounting/UseEffectDemoParent";
 // import UseEffectFetchData from "./Components/mounting/UseEffectFetchData";
 // import RefDemo1 from "./Components/forms/RefDemo1";
+// import RefDemo2 from "./Components/forms/RefDemo2";
+// import CallBackRefDemo from "./Components/forms/CallBackRefDemo";
 
 
 import "./App.css";
-import RefDemo2 from "./Components/forms/RefDemo2";
+import FormDemo1 from "./Components/forms/FormDemo1";
 
 
 
@@ -115,7 +117,9 @@ function App() {
       {/* <UseEffectDemoParent/> */}
       {/* <UseEffectFetchData/> */}
       {/* <RefDemo1/> */}
-      <RefDemo2/>
+      {/* <RefDemo2/> */}
+      {/* <CallBackRefDemo/> */}
+      <FormDemo1/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

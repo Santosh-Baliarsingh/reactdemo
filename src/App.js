@@ -56,10 +56,11 @@ import React from "react";
 // import RefDemo2 from "./Components/forms/RefDemo2";
 // import CallBackRefDemo from "./Components/forms/CallBackRefDemo";
 // import FormDemo1 from "./Components/forms/FormDemo1";
-import FormDemo2 from "./Components/forms/FormDemo2";
+// import FormDemo2 from "./Components/forms/FormDemo2";
 
 
 import "./App.css";
+import FormDemo3 from "./Components/forms/FormDemo3";
 
 
 
@@ -121,7 +122,8 @@ function App() {
       {/* <RefDemo2/> */}
       {/* <CallBackRefDemo/> */}
       {/* <FormDemo1/> */}
-      <FormDemo2/>
+      {/* <FormDemo2/> */}
+      <FormDemo3/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

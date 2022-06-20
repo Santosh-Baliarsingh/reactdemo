@@ -57,10 +57,14 @@ import React from "react";
 // import CallBackRefDemo from "./Components/forms/CallBackRefDemo";
 // import FormDemo1 from "./Components/forms/FormDemo1";
 // import FormDemo2 from "./Components/forms/FormDemo2";
+// import FormDemo3 from "./Components/forms/FormDemo3";
+// import AjaxDemo1 from "./Components/http/AjaxDemo1";
+// import AjaxDemo2 from "./Components/http/AjaxDemo2";
+// import AjaxDemo3 from "./Components/http/AjaxDemo3";
 
 
 import "./App.css";
-import FormDemo3 from "./Components/forms/FormDemo3";
+import AjaxDemo4 from "./Components/http/AjaxDemo4";
 
 
 
@@ -123,7 +127,11 @@ function App() {
       {/* <CallBackRefDemo/> */}
       {/* <FormDemo1/> */}
       {/* <FormDemo2/> */}
-      <FormDemo3/>
+      {/* <FormDemo3/> */}
+      {/* <AjaxDemo1/> */}
+      {/* <AjaxDemo2/> */}
+      {/* <AjaxDemo3/> */}
+      <AjaxDemo4/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

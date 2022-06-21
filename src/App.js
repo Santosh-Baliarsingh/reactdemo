@@ -61,10 +61,11 @@ import React from "react";
 // import AjaxDemo1 from "./Components/http/AjaxDemo1";
 // import AjaxDemo2 from "./Components/http/AjaxDemo2";
 // import AjaxDemo3 from "./Components/http/AjaxDemo3";
+// import AjaxDemo4 from "./Components/http/AjaxDemo4";
 
 
 import "./App.css";
-import AjaxDemo4 from "./Components/http/AjaxDemo4";
+import AjaxDemo5 from "./Components/http/AjaxDemo5";
 
 
 
@@ -131,7 +132,8 @@ function App() {
       {/* <AjaxDemo1/> */}
       {/* <AjaxDemo2/> */}
       {/* <AjaxDemo3/> */}
-      <AjaxDemo4/>
+      {/* <AjaxDemo4/> */}
+      <AjaxDemo5/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

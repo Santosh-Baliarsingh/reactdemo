@@ -20,7 +20,7 @@ export default function AjaxDemo4() {
   return (
     <>
        <div className="bg-dark text-light text-center p-3 h4">
-        Fetching Data Using Axios in Table Format With Loader  in Functional Component
+        Fetching Data On Button Click Using Axios in Table Format With Loader  in Functional Component
       </div>
 
       <button onClick={fetchData} className="btn btn-success ms-2">

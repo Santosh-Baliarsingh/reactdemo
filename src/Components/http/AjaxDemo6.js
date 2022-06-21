@@ -17,7 +17,7 @@ export default function AjaxDemo6() {
   return (
     <>
       <div className="bg-dark text-light p-3 text-center h3">
-        Example Of How TO Fetch Data From Different API (Parallel Calls){" "}
+        Example Of How TO Fetch Data From Different API (Parallel Calls) in Functional Component
       </div>
       <button className="btn btn-success ms-3" onClick={fetchData}>
         Fetch Data

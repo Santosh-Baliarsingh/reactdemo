@@ -64,7 +64,9 @@ import React from "react";
 // import AjaxDemo4 from "./Components/http/AjaxDemo4";
 // import AjaxDemo5 from "./Components/http/AjaxDemo5";
 // import Axios from "./Components/axios_instance/Axios";
-import AjaxDemo6 from "./Components/http/AjaxDemo6";
+// import AjaxDemo6 from "./Components/http/AjaxDemo6";
+// import AjaxDemo7 from "./Components/http/AjaxDemo7";
+import AjaxDemo8 from "./Components/http/AjaxDemo8";
 
 
 import "./App.css";
@@ -137,7 +139,9 @@ function App() {
       {/* <AjaxDemo4/> */}
       {/* <AjaxDemo5/> */}
       {/* <Axios/> */}
-      <AjaxDemo6/>
+      {/* <AjaxDemo6/> */}
+      {/* <AjaxDemo7/> */}
+      <AjaxDemo8/>
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
     </div>

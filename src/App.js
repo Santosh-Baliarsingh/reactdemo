@@ -67,13 +67,17 @@ import React from "react";
 // import AjaxDemo6 from "./Components/http/AjaxDemo6";
 // import AjaxDemo7 from "./Components/http/AjaxDemo7";
 import AjaxDemo8 from "./Components/http/AjaxDemo8";
+import { AxiosInterceptor1 } from "./Components/http/AxiosInterceptor1";
 
 
 import "./App.css";
+import { AxiosInterceptor2 } from "./Components/http/AxiosInterceptor2";
 
 
 
 function App() {
+  AxiosInterceptor1();
+  AxiosInterceptor2();
   return (
     <div>
       {/* <Header/> */}

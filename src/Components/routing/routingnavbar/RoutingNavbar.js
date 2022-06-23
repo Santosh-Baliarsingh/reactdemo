@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import './RoutingNavBar.css'
 
 export default function RoutingNavbar() {
   let [toggle, setToggle] = useState(true); // default Value is true
@@ -10,9 +11,9 @@ export default function RoutingNavbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
-      <Link className="nav-link active fw-bold text-light" to="/home">
+      <NavLink className="nav-link active fw-bold  h4" to="/">
          React
-      </Link>
+      </NavLink>
       <button
         className="navbar-toggler me-3 bg-light"
         type="button"
@@ -28,26 +29,26 @@ export default function RoutingNavbar() {
         className={`${toggle ? "collapse" : ""} navbar-collapse`}
         id="navbarNavDropdown"
       >
-        <ul className="navbar-nav ps-4 ">
-          <li className="nav-item ">
-            <Link className="nav-link active fw-bold text-light" to="/home">
+        <ul className="navbar-nav px-4  ">
+          <li className="nav-item ms-2">
+            <NavLink className="nav-link  fw-bold text-light" to="/home">
               Home
-            </Link>
+            </NavLink>
           </li>
-          <li className="nav-item">
-          <Link className="nav-link active fw-bold text-light" to="/about">
+          <li className="nav-item ms-2">
+          <NavLink className="nav-link  fw-bold text-light" to="/about">
               About
-            </Link>
+            </NavLink>
           </li>
-          <li className="nav-item">
-          <Link className="nav-link active fw-bold text-light" to="/contactUs">
+          <li className="nav-item mx-2">
+          <NavLink className="nav-link  fw-bold text-light" to="/contactUs">
               ContactUs
-            </Link>
+            </NavLink>
           </li>
-          <li className="nav-item">
-          <Link className="nav-link active fw-bold text-light" to="/productlist">
+          <li className="nav-item mx-2">
+          <NavLink className="nav-link fw-bold text-light" to="/productlist">
                ProductList
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

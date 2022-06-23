@@ -1,7 +1,7 @@
 import React from "react";
 // import Header from './Components/header/Header';
 // import Main from './Components/main/Main';
-// import Navbar from './Components/navb?ar/Navbar';
+// import Navbar from './Components/navbar/Navbar';
 // import Carousel from './Components/carousel/Carousel';
 // import ArrayDemo1 from './Components/Listitems/ArrayDemo1';
 // import ArrayDemo2 from './Components/Listitems/ArrayDemo2';
@@ -66,18 +66,20 @@ import React from "react";
 // import Axios from "./Components/axios_instance/Axios";
 // import AjaxDemo6 from "./Components/http/AjaxDemo6";
 // import AjaxDemo7 from "./Components/http/AjaxDemo7";
-import AjaxDemo8 from "./Components/http/AjaxDemo8";
-import { AxiosInterceptor1 } from "./Components/http/AxiosInterceptor1";
+// import AjaxDemo8 from "./Components/http/AjaxDemo8";
+// import { AxiosInterceptor1 } from "./Components/http/AxiosInterceptor1";
+// import { AxiosInterceptor2 } from "./Components/http/AxiosInterceptor2";
 
 
 import "./App.css";
-import { AxiosInterceptor2 } from "./Components/http/AxiosInterceptor2";
+import RoutingMain from "./Components/routing/routingMain/RoutingMain";
+
 
 
 
 function App() {
-  AxiosInterceptor1();
-  AxiosInterceptor2();
+  // AxiosInterceptor1();
+  // AxiosInterceptor2();
   return (
     <div>
       {/* <Header/> */}
@@ -145,9 +147,10 @@ function App() {
       {/* <Axios/> */}
       {/* <AjaxDemo6/> */}
       {/* <AjaxDemo7/> */}
-      <AjaxDemo8/>
+      {/* <AjaxDemo8/> */}
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
+      <RoutingMain/>
     </div>
   );
 }

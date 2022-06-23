@@ -64,7 +64,7 @@ export default function Navbar() {
             >
               <li>
                 <a
-                  className="dropdown-item fw-bold text-light"
+                  className="dropdown-item fw-bold text-light bg-dark"
                   href="google.com"
                 >
                   Action
@@ -72,7 +72,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  className="dropdown-item fw-bold text-light"
+                  className="dropdown-item fw-bold text-light bg-dark"
                   href="google.com"
                 >
                   Another action
@@ -80,7 +80,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  className="dropdown-item fw-bold text-light"
+                  className="dropdown-item fw-bold text-light bg-dark"
                   href="google.com"
                 >
                   Something else here

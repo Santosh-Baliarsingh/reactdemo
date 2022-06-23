@@ -1,0 +1,6 @@
+nav .nav-item  a.active{
+
+    background: orange;
+    border-radius: 10px;
+    padding-left: 10px;
+}

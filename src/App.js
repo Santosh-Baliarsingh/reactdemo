@@ -69,10 +69,10 @@ import React from "react";
 // import AjaxDemo8 from "./Components/http/AjaxDemo8";
 // import { AxiosInterceptor1 } from "./Components/http/AxiosInterceptor1";
 // import { AxiosInterceptor2 } from "./Components/http/AxiosInterceptor2";
+import RoutingMain from "./Components/routing/routingMain/RoutingMain";
 
 
 import "./App.css";
-import RoutingMain from "./Components/routing/routingMain/RoutingMain";
 
 
 

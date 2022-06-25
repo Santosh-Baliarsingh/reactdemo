@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Bars } from "react-loader-spinner";
+import { Link } from "react-router-dom";
 
 export default function ProductList() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const fetchData = () => {
-    setLoading(true)
+    setLoading(true);
     fetch("https://dummyjson.com/products")
       .then((response) => response.json())
       .then((data) => {
@@ -31,7 +32,7 @@ export default function ProductList() {
               <div className="card  ms-1 my-2" style={{ height: "450px" }}>
                 <img
                   src={prod.images[0]}
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "180px", height: "150px" }}
                   className="card-img-top mx-auto pt-2"
                   alt="..."
                 />
@@ -40,29 +41,30 @@ export default function ProductList() {
                     {prod.title}
                   </h5>
 
-                  <h5 className="card-title  fw-bold  ">
-                    Brand - <span className="text-danger">{prod.brand}</span> 
-                  </h5>
-                  
-                  <h5 className="card-title  fw-bold ">
-                    Price - {prod.price}
+                  <h5 className="card-title">
+                    Brand - <span className="text-danger">{prod.brand}</span>
                   </h5>
 
-                  <h5 className="card-title  fw-bold  ">
+                  <h5 className="card-title">Price - ${prod.price}</h5>
+
+                  <h5 className="card-title">
                     Category - {prod.category}
                   </h5>
 
-                  <h5 className="fw-bold">Ratings - {prod.rating}</h5>
+                  <h5>Ratings - {prod.rating}</h5>
 
-                  <h5 className="fw-bold">Stocks - {prod.stock}</h5>
+                  <h5>Stocks - {prod.stock}</h5>
 
-                  <button className="btn btn-primary mt-2">
-                    Add to Cart
-                  </button>
+                  <button className="btn btn-primary mt-2">Add to Cart</button>
 
-                  {/* After Clicked the view Details button the products will be shown in a products Details Page with the help of "Path params" in Route Params */ }
+                  {/* After Clicked the view Details button the products will be shown in a products Details Page with the help of "Path params" in Route Params */}
                   <button className="btn btn-success mt-2 ms-4">
-                    View Details
+                    <Link
+                      className="text-decoration-none text-light"
+                      to={`/productDetails/${prod.id}`}
+                    >
+                      View Details
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -70,12 +72,12 @@ export default function ProductList() {
           ))}
         </div>
       </div>
-       {/* Loader Functionality here */}
-       {loading ?  (
-            <div className="d-flex justify-content-center">
-          <Bars  height="70" width="80" color="black" ariaLabel="loading" />
-            </div>
-        ) : null}
+      {/* Loader Functionality here */}
+      {loading ? (
+        <div className="d-flex justify-content-center">
+          <Bars height="70" width="80" color="black" ariaLabel="loading" />
+        </div>
+      ) : null}
     </>
   );
 }

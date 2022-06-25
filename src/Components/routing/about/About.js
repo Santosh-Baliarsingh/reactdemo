@@ -21,8 +21,13 @@ export default function About() {
       <div className="text-center text-success h3 mt-3">
         This is About Page...
       </div>
-      <button className="btn btn-success ms-2" onClick={f1}>CLick To Go Home Page</button>
+      <div>
+      <button className="btn btn-success ms-2 mb-3" onClick={f1}>CLick To Go Home Page</button>
+      </div>
       {/* Here after click the button a alert message will show then navigate to the Home Page*/}
+
+      <button className="btn btn-danger mx-3" onClick={()=> navigate(-1)}>Previous</button>
+      <button className="btn btn-primary" onClick={()=> navigate(1)}>Next</button>
     </>
   );
 }

@@ -18,7 +18,7 @@ export default function RoutingMain() {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contactUs" element={<ContactUs />} />
-        <Route exact path="/ProductList" element={<ProductList />} />
+        <Route exact path="/productList" element={<ProductList />} />
         <Route exact path="/productDetails/:id" element={<ProductDetails/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -1,6 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import { ThreeDots } from "react-loader-spinner";
 
 export default function ProductDetails() {
   // InitialDetails
@@ -16,14 +18,17 @@ export default function ProductDetails() {
 
   const { id } = useParams();
   const [prodDetail, setProdDetail] = useState(initialDetails);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     fetchDetails();
   }, [id]);
 
   const fetchDetails = async () => {
-    const details = await axios.get(`https://dummyjson.com/products/${id}`);
+      setLoading(true);
+      const details = await axios.get(`https://dummyjson.com/products/${id}`);
     setProdDetail(details.data);
+    setLoading(false);
   };
 
   return (
@@ -36,6 +41,12 @@ export default function ProductDetails() {
       </h3>
 
       <div className="d-flex justify-content-center">
+       {/* Loader Functionality here */}
+       {loading ? (
+        <div className="d-flex justify-content-center">
+          <ThreeDots height="70" width="80" color="black" ariaLabel="loading" />
+        </div>
+      ) : 
         <div
           className="card ms-1 my-2"
           style={{ height: "400px", width: "380px" }}
@@ -64,7 +75,9 @@ export default function ProductDetails() {
             <h5>Stocks - {prodDetail.stock}</h5>
           </div>
         </div>
+        }
       </div>
+      
     </>
   );
 }

@@ -22,8 +22,8 @@ export default function ProductList() {
       <div className="text-center text-success h2 fw-bold bg-light text-success  p-3">
         ProductList Page (Using Route Params (Path Params))
       </div>
-      <button className="btn btn-info ms-2 mb-2" onClick={fetchData}>
-        Fetch Data
+      <button className="btn btn-success ms-2 mb-2" onClick={fetchData}>
+        Show Products
       </button>
       <div className="container-fluid">
         <div className="row">

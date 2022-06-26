@@ -21,10 +21,12 @@ export default function ProductDetails() {
   const [prodDetail, setProdDetail] = useState(initialDetails);
   const [loading, setLoading] = useState(false);
 
+  // UseEffect() Hooks
   useEffect(() => {
     fetchDetails();
   }, [id]);
 
+  // FetchDetails Function
   const fetchDetails = async () => {
     setLoading(true);
     const details = await axios.get(`https://dummyjson.com/products/${id}`);

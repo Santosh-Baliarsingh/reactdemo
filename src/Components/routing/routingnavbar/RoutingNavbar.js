@@ -50,6 +50,11 @@ export default function RoutingNavbar() {
                ProductList
             </NavLink>
           </li>
+          <li className="nav-item mx-2">
+          <NavLink className="nav-link fw-bold text-light" to="/productlist2">
+               ProductList2
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>

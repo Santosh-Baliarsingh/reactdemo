@@ -55,15 +55,13 @@ export default function ProductList() {
 
                   <h5>Stocks - {prod.stock}</h5>
 
-                  <button className="btn btn-primary mt-2">Add to Cart</button>
-
                   {/* After Clicked the view Details button the products will be shown in a products Details Page with the help of "Path params" in Route Params */}
-                  <button className="btn btn-success mt-2 ms-4">
+                  <button className="btn btn-success mt-2">
                     <Link
                       className="text-decoration-none text-light"
                       to={`/productDetails/${prod.id}`}
                     >
-                      View Details
+                      View Details in Path Params
                     </Link>
                   </button>
                 </div>

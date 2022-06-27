@@ -10,7 +10,7 @@ export default function ProductDetails() {
     images: [],
     title: "",
     brand: " ",
-    price: "",
+    price: 0,
     category: "",
     rating: "",
     stock: "",
@@ -37,7 +37,7 @@ export default function ProductDetails() {
   return (
     <>
       <div className="bg-light text-success text-center p-3 h2">
-        ProductDetails Page
+        ProductDetails Page Form Path Params
       </div>
       <h3 className="text-center">
         Selected Product ID is - <span className="text-danger">{id}</span>

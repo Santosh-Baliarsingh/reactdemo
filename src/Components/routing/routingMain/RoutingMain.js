@@ -22,7 +22,7 @@ export default function RoutingMain() {
         <Route exact path="/contactUs" element={<ContactUs />} />
         <Route exact path="/productList" element={<ProductList />} />
         <Route exact path="/productList2" element={<ProductList2 />} />
-        {/* Below Router is Path Params */}
+        {/* Below Route is Path Params */}
         <Route exact path="/productDetails/:id" element={<ProductDetails/>} />
         {/* Below Route is Query Params */}
         <Route exact path="/productDetails" element={<ProductDetails2/>}/>

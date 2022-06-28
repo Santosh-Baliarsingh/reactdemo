@@ -3,6 +3,9 @@ import { Route, Routes} from "react-router";
 import About from "../about/About";
 import ContactUs from "../contactUs/ContactUs";
 import Home from "../home/Home";
+import FeaturedProducts from "../nestedRouting/FeaturedProducts";
+import NestedRouting from "../nestedRouting/NestedRouting";
+import NewProducts from "../nestedRouting/NewProducts";
 import NotFound from "../notFound/NotFound";
 import ProductDetails from "../productDetails/ProductDetails";
 import ProductDetails2 from "../productDetails/ProductDetails2";
@@ -26,6 +29,11 @@ export default function RoutingMain() {
         <Route exact path="/productDetails/:id" element={<ProductDetails/>} />
         {/* Below Route is Query Params */}
         <Route exact path="/productDetails" element={<ProductDetails2/>}/>
+        {/* Below Route is NestedRouting */}
+        <Route exact path="/nestedRouting" element={<NestedRouting/>}>
+        <Route exact path="feature" element={<FeaturedProducts/>}/>
+        <Route exact path="new" element={<NewProducts/>}/>
+        </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

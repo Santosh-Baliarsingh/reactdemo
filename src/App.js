@@ -69,10 +69,11 @@ import React from "react";
 // import AjaxDemo8 from "./Components/http/AjaxDemo8";
 // import { AxiosInterceptor1 } from "./Components/http/AxiosInterceptor1";
 // import { AxiosInterceptor2 } from "./Components/http/AxiosInterceptor2";
-import RoutingMain from "./Components/routing/routingMain/RoutingMain";
+// import RoutingMain from "./Components/routing/routingMain/RoutingMain";
 
 
 import "./App.css";
+import FilterProducts from "./Components/fakestoreapi/FilterProducts";
 
 
 
@@ -93,6 +94,7 @@ function App() {
       {/* <ForceUpdateDemo1></ForceUpdateDemo1> */}
       {/* <PropsParent></PropsParent> */}
       {/* <Products></Products> */}
+      <FilterProducts/>
       {/* <ModuleCss></ModuleCss> */}
       {/* <ConditionalRendering1></ConditionalRendering1> */}
       {/* <ConditionalRendering2></ConditionalRendering2> */}
@@ -150,7 +152,7 @@ function App() {
       {/* <AjaxDemo8/> */}
       {/* <Footer></Footer> */}
       {/* <Practice /> */}
-      <RoutingMain/>
+      {/* <RoutingMain/> */}
     </div>
   );
 }
